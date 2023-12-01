@@ -1,0 +1,54 @@
+form {
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Adiciona esta linha para centralizar */
+}
+
+label {
+    display: block;
+    margin-bottom: -1px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: -1em; /* Reduza o espaçamento inferior */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #363636;
+    
+}
+article {
+    text-align: center;
+}
+
+article h2 {
+    margin-bottom: 16px;
+}
+
+article p {
+    margin-bottom: 24px;
+}
+.erro {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: -2px; /* Reduza o espaçamento superior */
+    display: inline-block; /* Modifique para inline-block para ocupar menos espaço vertical */
+}

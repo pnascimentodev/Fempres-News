@@ -1,0 +1,133 @@
+body {
+    overflow-y: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+
+
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Sans-serif';
+    font-weight: bold; 
+}
+
+.mini-header {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    font-family: 'Sans-serif';
+    font-weight: bold;
+    
+}
+
+.brand {
+    font-family: 'Sans-serif';
+      
+    font-size: 1.5em;
+    
+    color: #000; 
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.link-sobre {
+    color: #FFF !important;
+    text-decoration: none; 
+    font-weight: bold;
+    margin-left: 1em;
+    line-height: 2.1; 
+    vertical-align: top;
+    font-size: 13px; 
+}
+
+.link-contato {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: bold; 
+    margin-left: 1em;
+    line-height: 0.5; 
+    vertical-align: top;
+    font-size: 15px; 
+}
+
+nav {
+    display: flex;
+    font-family: 'Sans-serif';
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #000 !important; 
+    font-weight: bold;
+    margin-left: 1em;
+    font-family: 'Sans-serif';
+}
+
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-family: 'Sans-serif';
+}
+
+p {
+    line-height: 1.6;
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+.instagram-icon {
+    width: 24px; 
+    height: 24px; 
+}
+.icon {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 1em; 
+}

@@ -1,0 +1,42 @@
+/* femPress.css */
+
+.femPress-container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    padding: none; /* Você pode ajustar essa propriedade */
+    background-color: #f8f8f8;
+    height: 600px; /* Ajuste a altura conforme necessário */
+    margin-top: -100px; /* Ajuste a margem superior conforme necessário para posicionar o conteúdo mais para cima */
+}
+
+.femPress-content {
+    max-width: 600px;
+    margin-left: 4%; /* Ajuste a margem da esquerda conforme necessário para posicionar o texto */
+}
+
+.femPress-content h2 {
+    font-family: 'Sans-serif';
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+    border-bottom: none; /* Remove a linha entre o título e o texto */
+    color: #000000; /* Cor mais escura para o título */
+}
+
+.femPress-content p {
+    font-family: 'Sans-serif'; /* Substitua por sua fonte Sans-serif desejada */
+    font-size: 1.3em;
+    color: #666; /* Cor mais clara para o texto */
+    line-height: 1.4; /* Ajuste a altura da linha conforme necessário */
+    vertical-align: top; /* Alinha o texto ao topo */
+}
+
+.femPress-image {
+    margin-left: auto; /* Faz a imagem ficar no canto direito */
+}
+
+.femPress-image img {
+    max-width: 100%;
+    height: 600px;
+    border-radius: 20px;
+}

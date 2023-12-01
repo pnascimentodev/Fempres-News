@@ -1,0 +1,10 @@
+#container-noticia img {
+    width: 1500px; /* Ajuste conforme necessário para esticar a imagem para os lados */
+    max-width: 100%; /* Garante que a largura não exceda a largura do contêiner */
+    height: 500px; /* Altura fixa de 400px */
+    object-fit: cover; /* Ajusta e mantém a proporção, cobrindo todo o contêiner */
+    object-position: center; /* Centraliza a imagem */
+    border-radius: 12px; /* Adiciona bordas arredondadas de 12px */
+    display: block; /* Remove qualquer espaço extra abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}

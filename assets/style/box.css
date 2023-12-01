@@ -1,0 +1,42 @@
+/* box.css */
+
+.box-container {
+    display: flex;
+    justify-content: center; /* Centraliza os boxes horizontalmente */
+    margin: 30px; /* Adiciona uma barra de rolagem horizontal caso necessário */
+    padding: 0 20px; /* Adiciona espaço nas laterais */
+}
+
+.box {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-right: 50px; /* Espaçamento entre as caixas */
+    max-width: 350px; /* Limita a largura máxima do box */
+    height: none; /* Define a altura do box */
+}
+.box img {
+    max-width: 40%; /* Define a largura máxima das imagens para 100% */
+    height: auto; /* Mantém a proporção da altura */
+}
+.titulo {
+    font-size: 1.5em;
+    font-family: 'Garamond', serif;
+    font-weight: bold; /* Adiciona negrito */
+    color: #000; /* Cor preta */
+    margin-top: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.texto-abaixo {
+    font-size: 1.2em; /* Fonte menor */
+    color: #666; /* Cor cinza */
+    margin-top: 5px; /* Espaçamento entre o título e o texto */
+    text-align: center; /* Alinhamento central */
+}
+/* Remova a margem da última caixa para evitar espaçamento extra */
+.box:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Garamond&display=swap">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/form.css">
+    <title>Contato</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+    <div class="mini-header">
+        <div class="contact-info">
+            <a href="tel:+5581988859162" class="link-contato"><img src="assets/icones/telephone.png" alt="Telefone" class="icon"></a>
+            <span>• 81 98885-9162</span>
+        </div>
+        <div>
+            
+            <a href="https://www.instagram.com/fempress_" target="_blank">
+                <img src="assets/icones/instagram.png" alt="Instagram" class="icon">
+            </a>
+        </div>
+    </div>
+
+    <header>
+        <div class="brand">FEMPRESS</div>
+        <nav>
+            <a href="index.html">HOME</a>
+
+            <a href="contato.html">CONTATO</a>
+        </nav>
+    </header>
+    
+    <article>
+        <h2>FALE CONOSCO</h2>
+        <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+
+        <form id="contactForm" class="form-contato" data-netlify="true">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <span class="erro" id="erroNome"></span>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="erro" id="erroEmail"></span>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <span class="erro" id="erroMensagem"></span>
+
+            <button type="button" onclick="enviarEmail()">Enviar Mensagem</button>
+        </form>
+    </article>
+
+
+    <script src="backend/scripts/contato.js"></script>
+</body>
+</html>

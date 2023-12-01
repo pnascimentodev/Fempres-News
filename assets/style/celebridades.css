@@ -1,0 +1,74 @@
+/* cotas.css */
+
+article {
+    font-family: 'Sans-serif';
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens ao centro */
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+}
+section{
+    font-family: 'Sans-serif';
+    
+    flex-direction: column;
+    
+}
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold; 
+    max-width: 1030px; 
+    margin: 15px auto; 
+}
+
+.por-text {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(78, 77, 77);
+    margin-left: -800px;
+    margin-top: 5px; /* Ajustando a margem superior */
+}
+
+.mini-text {
+    font-size: 14px;
+    margin-left: -650px;
+    margin-top: 5px; /* Ajustando a margem superior */
+}
+
+.image-container {
+    width: 44%; /* Ajuste conforme necessário para o tamanho desejado */
+    margin-top: 10px;
+    float: left;
+    margin-right: 1em;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.image-text {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.centered-title {
+    font-size: 19px;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-top: 10px;
+    font-weight: bold;
+    max-width: 750px; /* Ajuste conforme necessário para a largura desejada */
+    margin: 10px auto; /* Ajuste a margem inferior para manter a consistência */
+}
+
+.centered-text {
+    font-size: 19px;
+    text-align: left; /* Centraliza o texto */
+    margin-top: 10px;
+    max-width: 750px; /* Ajuste conforme necessário para a largura desejada */
+    margin: 15px auto; /* Mantém a margem superior e inferior e centraliza horizontalmente */
+}
+
+

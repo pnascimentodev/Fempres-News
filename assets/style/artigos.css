@@ -1,0 +1,72 @@
+/* artigos.css */
+
+.artigos-container {
+    margin-top: 20px;
+}
+
+.artigo {
+    background-color: none; /* Cor de fundo para cada artigo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para cada artigo */
+    display: flex; /* Adiciona flexbox para facilitar o layout */
+}
+
+.imagem {
+    width: 20%; /* Ajuste conforme necessário para o tamanho desejado */
+    float: left;
+    margin-right: 1em;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* Adiciona bordas arredondadas de 15px */
+    margin-left: 20px; /* Adiciona espaçamento do canto esquerdo */
+}
+
+.conteudo {
+    padding: 15px;
+    display: flex; /* Adiciona flexbox para facilitar o layout */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    flex-grow: 1; /* Faz o conteúdo ocupar o espaço restante */
+}
+
+h2 {
+    color: #000000; /* Cor do título do artigo */
+    border-bottom: none !important;
+    font-family: 'Sans-serif';
+    font-size: 1.8em;
+    margin-bottom: -8px;
+    margin-left: 20px; /* Reduz a margem inferior entre o título e o parágrafo */
+}
+
+li {
+    color: #1b1b1b; /* Cor do título do artigo */
+    border-bottom: none !important;
+    font-family: 'Sans-serif';
+    font-size: 1.2em;
+    margin-bottom: 10px; /* Reduz a margem inferior entre o item de lista e o próximo elemento */
+    position: relative; /* Define a posição relativa para permitir a criação de pseudo-elemento */
+}
+
+
+a {
+    text-decoration: none; /* Remove a decoração de texto padrão do link */
+    color: #000; /* Cor do texto do link */
+}
+
+h2 a {
+    text-decoration: none; /* Remove a sublinhagem do link no título */
+    color: inherit; /* Herda a cor do texto do elemento pai (h2) */
+}
+
+h2 a:hover {
+    text-decoration: none;
+    color: #6d6d6d /* Adiciona sublinhagem ao passar o mouse sobre o link no título */
+}
+
+p {
+    font-size: 0.8em;
+    color: #000; 
+    margin-bottom: -8px;
+    margin-left: 20px;
+}
